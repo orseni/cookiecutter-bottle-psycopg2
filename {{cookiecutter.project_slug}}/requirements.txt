@@ -1,4 +1,4 @@
 bottle
-bottle-sqlalchemy
+bottle-inject
 bjoern
 webtest

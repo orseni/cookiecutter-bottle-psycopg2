@@ -13,6 +13,6 @@ Features
 Credits
 ---------
 
-This package was created with Cookiecutter_ and the `orseni/cookiecutter-bottle-pydbwrapper`_ project template.
+This package was created with Cookiecutter_ and the `orseni/cookiecutter-bottle-psycopg2`_ project template.
 
-.. _Cookiecutter: https://github.com/orseni/cookiecutter-bottle-pydbwrapper
+.. _Cookiecutter: https://github.com/orseni/cookiecutter-bottle-psycopg2

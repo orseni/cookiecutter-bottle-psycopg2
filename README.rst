@@ -1,10 +1,10 @@
 ==================================
-Cookiecutter Falcon + pydbwrapper
+Cookiecutter Bottle + psycopg2
 ==================================
 
-Cookiecutter_ template for a Python + Falcon + pydbwrapper.
+Cookiecutter_ template for a Python + Bottle + psycopg2.
 
-* GitHub repo: https://github.com/orseni/cookiecutter-falcon-pydbwrapper/
+* GitHub repo: https://github.com/orseni/cookiecutter-bottle-psycopg2/
 * Free software: BSD license
 
 Features
@@ -22,4 +22,4 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/orseni/cookiecutter-falcon-pydbwrapper.git
+    cookiecutter https://github.com/orseni/cookiecutter-bottle-psycopg2.git
