@@ -1,4 +1,4 @@
 bottle
-bottle-inject
 bjoern
+psycopg2
 webtest
