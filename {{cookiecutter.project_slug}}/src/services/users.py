@@ -3,7 +3,7 @@
     User service example
 """
 import pg_simple
-from bottle import get, put, request.params
+from bottle import get, put
 
 @get("/users/<id>")
 def load(id):
@@ -27,7 +27,7 @@ def query():
 
 @put("/users")
 def insert():
-    print(request.params.getall("param"))
+    #print(request.params.getall("param"))
     # """ Insert a user """
     # with pg_simple.PgSimple() as db:
     #     users = db.insert('users',
