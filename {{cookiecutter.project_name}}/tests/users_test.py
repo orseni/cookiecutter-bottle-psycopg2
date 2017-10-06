@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `{{ cookiecutter.project_slug }}` package."""
+"""Tests for `{{ cookiecutter.project_name }}` package."""
 
 import pytest
 
-from {{ cookiecutter.project_slug }} import {{ cookiecutter.project_slug }}
+from {{ cookiecutter.project_name }} import {{ cookiecutter.project_name }}
 
 
 @pytest.fixture
