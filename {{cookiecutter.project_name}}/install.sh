@@ -1,1 +1,1 @@
-for req in $(cat requirements.txt); do pip install $req; done
+for req in $(cat requirements.txt); do pip -U install $req; done
