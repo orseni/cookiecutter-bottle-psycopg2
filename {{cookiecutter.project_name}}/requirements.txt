@@ -1,5 +1,5 @@
 bottle
 bottle-swagger
+git+https://github.com/orseni/pg_simple.git
 psycopg2
 webtest
-git+https://github.com/orseni/pg_simple.git
