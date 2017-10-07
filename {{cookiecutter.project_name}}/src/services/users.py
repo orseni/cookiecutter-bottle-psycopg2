@@ -27,6 +27,7 @@ def query():
 
 @put("/users")
 def insert():
+    pass
     #print(request.params.getall("param"))
     # """ Insert a user """
     # with pg_simple.PgSimple() as db:
