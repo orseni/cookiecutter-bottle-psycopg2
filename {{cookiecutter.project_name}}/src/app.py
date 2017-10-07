@@ -15,6 +15,6 @@ with open("{}/{}".format(dirname(__file__), "database.conf")) as config_file:
 app = bottle.default_app()
 
 if __name__ == "__main__":
-    dev_options = {'host': 'localhost', 'port': 8000,
+    dev_options = {'host': '0.0.0.0', 'port': 8000,
                    'workers': 1, 'reload': True, 'debug': True}
     bottle.run(**dev_options)
