@@ -4,6 +4,13 @@
 
 {{ cookiecutter.project_short_description }}
 
+Install
+--------
+# apt install virtualenv python3 python3-pip cookiecutter
+# cookiecutter https://github.com/orseni/cookiecutter-bottle-
+# cd <project_name>
+# virtualenv -p /usr/bin/python3 venv
+
 Features
 --------
 
