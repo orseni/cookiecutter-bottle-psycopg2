@@ -7,9 +7,10 @@ import pg_simple
 
 from services import *
 
-logging.config.fileConfig("{}/{}".format(dirname(__file__), 'logging.ini'))
+#logging.config.fileConfig("{}/{}".format(dirname(__file__), 'logging.ini'))
+logging.config.fileConfig("logging.ini")
 
-with open("{}/{}".format(dirname(__file__), "database.conf")) as config_file:
+with open("database.conf") as config_file:
     pg_simple.config_pool(dsn=config_file.readlines()[0])
 
 app = bottle.default_app()

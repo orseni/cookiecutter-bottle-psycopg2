@@ -7,9 +7,11 @@
 Install
 --------
 # apt install virtualenv python3 python3-pip cookiecutter
-# cookiecutter https://github.com/orseni/cookiecutter-bottle-
+# cookiecutter https://github.com/orseni/cookiecutter-bottle-psycopg2.git
 # cd <project_name>
 # virtualenv -p /usr/bin/python3 venv
+# source venv/bin/activate
+# ./install_dependences.sh
 
 Features
 --------
